@@ -24,7 +24,7 @@ spec:
         app: mc-vanilla
     spec:
       containers:
-      - image: itzg/minecraft-server
+      - image: sebastiansikora/mc
         name: mc-vanilla
         env:
           # Use secret in real usage
