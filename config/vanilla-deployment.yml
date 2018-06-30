@@ -6,7 +6,7 @@ spec:
   type: NodePort
   ports:
   - port: 25565
-    nodePort: 29000
+    nodePort: 32000
   selector:
     app: mc-vanilla
 ---
